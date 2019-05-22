@@ -7,9 +7,9 @@
 	padding: 10px;
 	margin:4px;
 }
-.bild{
+.karusell{
 	width: 100%;
-	height: 517px;
+	height: 372px;
 	
 }
 .logga{
@@ -22,4 +22,20 @@
 .text{
 	text-align: center;
 	padding: 10px;
+}
+.text1{
+	padding: 20px;
+}
+
+.text2{
+	padding: 20px;
+}
+
+.text3{
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.card{
+	float: left;
 }
