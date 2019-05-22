@@ -39,11 +39,12 @@
 .card{
 	
 	width: 300px;
+	float: left;
 }
 .card1{
 	width: 300px;
 	float: left;
-	height: 2000px;
+	height: 200px;
 
 
 }
