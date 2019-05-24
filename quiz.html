@@ -40,7 +40,24 @@
     <a class="logga" href="https://www.ronneby.se/sidowebbplatser/gymnasieskolan-knut-hahn.html" target="blank_"><img src="img/knuthahn.png" width="80" alt=""></a>
   </nav>
 
-
+  <div class="text4">                          <!-- Quiz -->
+        <h1 class="titel auto quizfix" id="titel">Quiz</h1>        
+        <h2 id="froga" class="hej auto quizfix">Vad har Programspråket Python har fått sitt namn från?</h2>
+        <div id="bild" class="bild0 storlek quizfix">
+          <div class="flytt"></div>
+          <div id="input" class="hej quizfix">
+            <form method="POST">
+              <div class="form-group">
+                <input id="answer" class="form-control quizfix" type="text" placeholder="Skriv svaret">
+                <small id="help" class="form-text text-muted quizfix">Skriv bara ett ord med små bokstäver och utan mellanslag</small>
+              </div>
+              <button id="knapp" class="btn btn-primary" type="button" onclick="checkAnswer()">Svara</button>
+            </form>
+          </div>
+          <h2 class="quizfix" id="visa">Dina antal rätt: 0</h2>
+          <script src="js/skript.js"></script>
+        </div>
+      </div>
 
 <div class="text8 footer">
   © Petter Sundelin 2019. Denna hemsidan är designad och kodad av Petter Sundelin
