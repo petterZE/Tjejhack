@@ -62,10 +62,47 @@
 }
 .text6{
 	margin-left: 10px;
+	border:0;
 }
 .text7{
 	margin-bottom: 5px;
+	border:0;
 }
 .text8{
-	margin-top: 467px;
+	margin-top: 150px;
+}
+.storlek{
+background-size: 400px;
+width: 400px;
+height: 220px;
+}
+.flytt{									
+	height: 225px;
+}
+.input{
+	display: none;
+}
+.hopp{
+	margin-top: 30px;
+}
+#answer{
+	width: 375px;
+}
+.bild0{									
+	background-image: url("img/bild0.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+.bild1{
+	background-image: url("img/bild0.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
+}
+.bild2{
+	background-image: url("img/bild0.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50%;
 }
